@@ -99,5 +99,5 @@ while True:
 #				print FORMAT % row
 		else:
 			quit()
-	except (SyntaxError, KeyboardInterrupt):		#Herhangi bir işlem seçmeden Ctrl+enter yada enter tuşuna basılırsa
+	except (SyntaxError, KeyboardInterrupt):		#Herhangi bir işlem seçmeden Ctrl+C  yada enter tuşuna basılırsa
 		print "\n UYARI !! Lütfen bir işlem seçiniz. Programı kapamak için çıkış yapınız"
